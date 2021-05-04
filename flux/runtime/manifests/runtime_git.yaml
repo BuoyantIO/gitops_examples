@@ -8,5 +8,5 @@ spec:
   interval: 1m0s
   ref:
     branch: main
-  url: https://github.com/JasonMorgan/linkerd-demos.git
+  url: https://github.com/BuoyantIO/gitops_examples.git
 
