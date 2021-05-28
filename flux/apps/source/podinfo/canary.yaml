@@ -45,6 +45,6 @@ spec:
       # maximum req duration P99
       # milliseconds
       thresholdRange:
-        max: 500
+        max: 200
       interval: 30s
 
