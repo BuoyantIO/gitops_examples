@@ -8,7 +8,7 @@ spec:
   interval: 1m0s
   path: ./flux/apps/source/podinfo
   dependsOn:
-    - flagger
+    - name: flagger
   prune: true
   sourceRef:
     kind: GitRepository
