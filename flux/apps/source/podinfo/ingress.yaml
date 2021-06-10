@@ -3,7 +3,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: default
-  namespace: apps-ns
+  namespace: podinfo
   annotations:
     ingress.kubernetes.io/ssl-redirect: "false"
 spec:
